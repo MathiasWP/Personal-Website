@@ -6,7 +6,7 @@ const { sendBlogPostsFromFolder } = require('./lib/parseBlogPosts');
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('', (req, res) => res.sendFile('index.html'));
+app.get('/', (req, res) => res.sendFile('index.html'));
 
 app.post('/blogposts', async (req, res) => {
   const data = await sendBlogPostsFromFolder('blog-posts');
