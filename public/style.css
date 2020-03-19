@@ -116,6 +116,10 @@ nav h4 {
   visibility: hidden;
 }
 
+.footer > * {
+  padding: 1rem 2rem;
+}
+
 .footer-active {
   visibility: visible !important;
 }
@@ -179,7 +183,7 @@ nav h4 {
   height: auto !important;
 }
 
-.blog-scrolling .blog-part {
+.blog-part {
   min-height: 10rem;
   position: relative;
   padding: 2rem;
@@ -260,7 +264,6 @@ nav h4 {
 .blog-doc a:link,
 .blog-doc a:visited {
   color: var(--light-blue);
-  display: inline-block;
 }
 
 .blog-doc a:hover {
@@ -368,4 +371,25 @@ nav h4 {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+}
+
+@media screen and (max-width: 56.25em) {
+  .blog-scrolling {
+    transform: translateX(0);
+    width: 100%;
+    padding: 1rem 0;
+    transition: transform 0.8s ease-out;
+  }
+
+  .blog-part {
+    transition: width 0.8s;
+  }
+
+  .blog-scrolling-left {
+    width: auto !important;
+  }
+
+  .blog-part {
+    max-width: 80%;
+  }
 }
