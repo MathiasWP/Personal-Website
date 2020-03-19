@@ -8,7 +8,7 @@ _ID = Introduction x1 NOT REQUIRED
 _UD = Undertitle 
 _C = Codeblock 
 < = Start of section
-> = end of section
+> = end of section REQUIRED WHEN USING START OF SECTION
 --tag() = tag-element in HTML 
 
 How to write tag

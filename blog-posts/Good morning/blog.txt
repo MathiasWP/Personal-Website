@@ -1,9 +1,0 @@
-_T What a beautiful day!
-
-_D Woohoo!
-
-<
-_UT This section
-
-_C if(section) {work}
->
