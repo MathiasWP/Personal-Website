@@ -1,0 +1,38 @@
+_T ScrollProgressBar.js
+
+_D Mitt første JS bibliotek
+
+_ID Helt siden jeg brukte mitt første bibliotek har jeg alltid tenkt "shii... jeg har lyst til å prøve å lage mitt eget javascript-bibliotek en gang". 1.74 år senere - done ✅
+
+<
+Biblioteket mitt er ikke veldig stort, og det er ikke veldig hokus pokus heller. Men allikevel er jeg overraskende
+stolt over dette lille biblioteket - 
+noe jeg tror er mest fordi jeg lenge følte
+at det var svart magi å lage noe slikt.
+>
+
+_UT Hvordan det starta
+
+<
+Ganske lenge drev jeg å titta rundt på javascipt-bibliotek på Github for å få innsikt i hvordan progginga så ut.
+jQuery, AOS, ThreeJS, Moment osv. Alle bibliotek jeg kom over, titta jeg på kildekoden til. I løpet av tiden jeg har progga merka jeg at
+kildekodene jeg titta på begynte å gi mer og mer mening, og til slutt tenkte jeg bare --tag(i,text="fukk it, nå skal jeg lage meg no' javascript-bibliotek")
+>
+
+<
+Etter å ha titta på YouTube videoen --tag(a,href=https://www.youtube.com/watch?v=4ZSRbXh0jEQ,text=How to create a JavaScript library like jQuery in under 10 minutes) ble jeg ikke en shit klokere, men skjønte
+endelig hvorfor man skrev sånne ting som dette i starten av biblioteket:
+>
+_C  if (typeof library === "undefined") {window.library = defineLibrary}
+<
+Overraskende nok var denne teite åpenbaringen nok til at jeg virkelig følte meg som en javascript-bibliotek gud og og satt igjen med en skikkelig
+selvmestringsfølelse av å ha laget denne lille blonken med kode. Selv om jeg synes det er litt morsomt hvor gira jeg ble av dette selvlagde biblioteket (la den til og med ut på --tag(a,href=https://www.reddit.com/r/Frontend/comments/ezqlju/ive_created_my_first_js_library_please_tell_me/,text=reddit)),
+anser jeg det enda som et viktig punkt i starten av min progge-karriere. Å tenke at meg selv for snart 2 år siden ville blitt mektig imponert av dette gir meg motivasjon til å ville fortsette å lære.
+>
+
+<
+_UT Link til ScrollProgressBar.js: 
+
+--tag(a,href=https://scrollprogressbar.github.io/,text=ScrollProgressBar.github.io)
+>
+

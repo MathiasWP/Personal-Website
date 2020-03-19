@@ -1,0 +1,22 @@
+  
+BLOG-SYNTAX:
+
+_T = Main-title/header - x1 REQUIRED
+TimeStamp - x1 automatically made
+_D = Description - x1 REQUIRED
+_ID = Introduction x1 NOT REQUIRED
+_UD = Undertitle 
+_C = Codeblock 
+< = Start of section
+> = end of section
+--tag() = tag-element in HTML 
+
+How to write tag
+
+First value in --tag() is the wanted tag for element. After that just seperate by commas (without any space) with desired attribute and value (value with no ""/'')
+
+Examples
+
+--tag(a,href=https://google.com,text=This is Google's homepage)
+
+--tag(img,src=https://i.pinimg.com/originals/51/bf/9c/51bf9c7fdf0d4303140c4949afd1d7b8.jpg,alt=Cute cat)
