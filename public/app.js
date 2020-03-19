@@ -11,6 +11,8 @@ import updateBlogMode from './js/dist/updateBlogMode.js';
   // Get blogposts from server
   const blogPosts = await getBlogPosts();
 
+  console.log(blogPosts);
+
   // pageFlags, basically knowing what states site is in
   const pageFlags = {
     readingMode: false,
