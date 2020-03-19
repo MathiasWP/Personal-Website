@@ -8,6 +8,13 @@ import deactivateReadingMode from './js/lib/deactivateReadingMode.js';
 import updateBlogMode from './js/dist/updateBlogMode.js';
 
 (async () => {
+  const blogScrolling = document.querySelector('.blog-scrolling');
+
+  const loadingText = document.createElement('div');
+  loadingText.classList.add('loading-text');
+  loadingText.textContent = 'Laster...';
+  blogScrolling.appendChild(loadingText);
+
   // Get blogposts from server
   const blogPosts = await getBlogPosts();
 

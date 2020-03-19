@@ -5,6 +5,7 @@
 
 function createBlogPosts(blogPostsArray, callback) {
   const blogScrolling = document.querySelector('.blog-scrolling');
+  blogScrolling.innerHTML = '';
 
   blogPostsArray.forEach(blog => {
     // Blog-part on frontpage

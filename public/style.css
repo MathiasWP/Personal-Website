@@ -353,3 +353,19 @@ nav h4 {
   animation: ExpandAndGone 0.5s ease-in 0s 1;
   transition: all 0.4s;
 }
+
+.loading-text {
+  min-height: 10rem;
+  position: relative;
+  padding: 2rem;
+  font-size: 4.5rem;
+  margin: 2rem auto;
+  width: var(--blog-part-width);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: #fff;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
