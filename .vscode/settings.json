@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/c4963eaa-a142-4a81-bf38-d7a3ff207e23/resourceGroups/Blog/providers/Microsoft.Web/sites/Mathias-Picker",
+    "appService.deploySubpath": ""
+}

@@ -8,10 +8,23 @@ import deactivateReadingMode from './js/lib/deactivateReadingMode.js';
 import updateBlogMode from './js/dist/updateBlogMode.js';
 
 (async () => {
+  // Making loading-text a little bit more fun
+  const loadingText = document.querySelector('.loading-text');
+  let loadingTextContent = loadingText.innerHTML;
+  const maxLength = loadingTextContent.length + 3;
+
+  const addPeriods = setInterval(() => {
+    loadingText.innerHTML.length >= maxLength
+      ? (loadingText.innerHTML = loadingTextContent)
+      : (loadingText.innerHTML += '.');
+  }, 600);
+
   // Get blogposts from server
   const blogPosts = await getBlogPosts();
 
-  console.log(blogPosts);
+  if (blogPosts) {
+    clearInterval(addPeriods);
+  }
 
   // pageFlags, basically knowing what states site is in
   const pageFlags = {
